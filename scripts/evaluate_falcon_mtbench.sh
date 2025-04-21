@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=7 python -m evaluation.gen_falcon_answer_llama2chat_mtbench --fa-model-path outputs/1105-llama2-7B-ce+oace/state_14 --base-model-path Llama-2-7b-chat-hf --model-id falcon-llama-7b-ce+oace_layer4 --temperature 0.0 --tree-choices kmask2_8layer_tree --k_mask 2

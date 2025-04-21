@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4 accelerate launch -m --num_machines=1 --num_processes=1 --mixed_precision=bf16 train.glanceEAGLE --basepath Qwen2.5-32B-instruct --tmpdir qwen2.5-32b-instruct_gen_data --cpdir outputs/1209-Qwen2.5-7B-falcon --configpath train/qwen2.5-32b.json --bs 1

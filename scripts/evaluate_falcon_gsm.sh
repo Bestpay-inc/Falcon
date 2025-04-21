@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python -m evaluation.gen_falcon_answer_llama2chat_gsm8k --fa-model-path glance-Llama2-13b-0729-kmask2-big/state_13 --base-model-path Llama-2-13b-chat-hf --model-id /0813_stable/falcon-vicuna-7b-gsm8k --temperature 0.0 --tree-choices kmask2_8layer_tree --k_mask 2 --bench-name gsm8k
